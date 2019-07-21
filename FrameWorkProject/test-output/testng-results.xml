@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20449" started-at="2019-07-20T04:15:00Z" finished-at="2019-07-20T04:15:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20449" started-at="2019-07-20T04:15:00Z" finished-at="2019-07-20T04:15:20Z">
+      <class name="testCase.TC_1_LoginPage_ValidTest">
+        <test-method status="PASS" signature="initiateDriverinstance()[pri:0, instance:testCase.TC_1_LoginPage_ValidTest@754ba872]" name="initiateDriverinstance" is-config="true" duration-ms="5880" started-at="2019-07-20T04:15:00Z" finished-at="2019-07-20T04:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverinstance -->
+        <test-method status="PASS" signature="tc_01_login_Test(java.lang.String, java.lang.String)[pri:0, instance:testCase.TC_1_LoginPage_ValidTest@754ba872]" name="tc_01_login_Test" duration-ms="5453" started-at="2019-07-20T04:15:06Z" data-provider="Authentication" finished-at="2019-07-20T04:15:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arjun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arjun]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_login_Test -->
+        <test-method status="PASS" signature="closeDriverInstance(org.testng.ITestResult)[pri:0, instance:testCase.TC_1_LoginPage_ValidTest@754ba872]" name="closeDriverInstance" is-config="true" duration-ms="819" started-at="2019-07-20T04:15:12Z" finished-at="2019-07-20T04:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_01_login_Test status=SUCCESS method=TC_1_LoginPage_ValidTest.tc_01_login_Test(java.lang.String, java.lang.String)[pri:0, instance:testCase.TC_1_LoginPage_ValidTest@754ba872] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+        <test-method status="PASS" signature="initiateDriverinstance()[pri:0, instance:testCase.TC_1_LoginPage_ValidTest@754ba872]" name="initiateDriverinstance" is-config="true" duration-ms="4731" started-at="2019-07-20T04:15:13Z" finished-at="2019-07-20T04:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverinstance -->
+        <test-method status="FAIL" signature="tc_01_login_Test(java.lang.String, java.lang.String)[pri:0, instance:testCase.TC_1_LoginPage_ValidTest@754ba872]" name="tc_01_login_Test" duration-ms="2321" started-at="2019-07-20T04:15:17Z" data-provider="Authentication" finished-at="2019-07-20T04:15:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akhil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arjun]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at junit.framework.Assert.assertTrue(Assert.java:27)
+at testCase.TC_1_LoginPage_ValidTest.tc_01_login_Test(TC_1_LoginPage_ValidTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_login_Test -->
+        <test-method status="PASS" signature="closeDriverInstance(org.testng.ITestResult)[pri:0, instance:testCase.TC_1_LoginPage_ValidTest@754ba872]" name="closeDriverInstance" is-config="true" duration-ms="558" started-at="2019-07-20T04:15:20Z" finished-at="2019-07-20T04:15:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_01_login_Test status=FAILURE method=TC_1_LoginPage_ValidTest.tc_01_login_Test(java.lang.String, java.lang.String)[pri:0, instance:testCase.TC_1_LoginPage_ValidTest@754ba872] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+      </class> <!-- testCase.TC_1_LoginPage_ValidTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

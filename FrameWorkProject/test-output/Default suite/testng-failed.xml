@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testCase.TC_1_LoginPage_ValidTest">
+        <methods>
+          <include name="closeDriverInstance"/>
+          <include name="initiateDriverinstance"/>
+          <include name="tc_01_login_Test" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- testCase.TC_1_LoginPage_ValidTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
